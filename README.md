@@ -1,6 +1,8 @@
 # UnityHairShader
 A hair shader originally built for the sine.space virtual world, designed and built for Unity3D's PBR rendering system.
 
+![Preview image](https://raw.githubusercontent.com/AdamFrisby/UnityHairShader/master/Anisohair.jpg)
+
 Leverages the Anisotropic Rendering released by Matt Dean availible from https://github.com/Kink3d/AnisotropicStandardShader - and incorporates features from Alan Zucconi's implementation of EA's Frostbite Fast Translucency algorithm (GDC 2011).
 
 Quick Summary:
