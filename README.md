@@ -7,7 +7,10 @@ Quick Summary:
 * Anisotropic highlights
 * PBR-ish. Has option to tweak/remove unrealistic fresnel highlights.
 * Optional variant with Normal Map support
-* Double Sided (optional)
+* Double Sided (optional - delete the first pass if you dont need it)
 * Works with Shader Model 3.0 (Normal Map variant requires SM 4.5, but will fallback to SM 3.0 variant)
+
+Notes:
+* Is going to be kinda heavy. Performance seems OK here, but could probably do with optimisation.
 
 Shows up as 'Sine Wave/Modern/Adam's Hair Shader 1.0' (Plain variant) and 'Sine Wave/Modern/Adam's Hair Shader 1.1' (Normal variant)
