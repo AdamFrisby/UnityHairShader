@@ -14,5 +14,6 @@ Quick Summary:
 
 Notes:
 * Is going to be kinda heavy. Performance seems OK here, but could probably do with optimisation.
+* We render the lower pass using alpha testing versus blending; this fixes a host of issues with ordering; it's a little smelly, but it works better over all.
 
 Shows up as 'Sine Wave/Modern/Adam's Hair Shader 1.0' (Plain variant) and 'Sine Wave/Modern/Adam's Hair Shader 1.1' (Normal variant)
