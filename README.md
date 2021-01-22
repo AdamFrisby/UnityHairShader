@@ -1,4 +1,10 @@
-# UnityHairShader
+# UnityHairShader Version 9
+This version uses blue noise and alpha to mask dithering to produce significantly better rendering when layering lots of hair strips on top of each other.
+Be aware however, while this is temporally stable, it is not view angle stable -- it must be used with some kind of Temporal Anti Aliasing or Motion Blur.
+
+The results are much, much better though.
+
+# UnityHairShader Version 6
 A hair shader originally built for the sine.space virtual world, designed and built for Unity3D's PBR rendering system.
 
 ![Preview image](https://raw.githubusercontent.com/AdamFrisby/UnityHairShader/master/Anisohair.jpg)
